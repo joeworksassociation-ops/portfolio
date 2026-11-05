@@ -16,11 +16,11 @@ Criei o Preventivo para organizar promessas e acordos de pagamento, acompanhar v
 
 Atualmente, cerca de **15 outros profissionais** utilizam e avaliam a solução, contribuindo com sugestões para sua evolução.
 
-**Recursos:** busca, alertas de vencimento, indicadores operacionais, confirmação manual de pagamentos e armazenamento local criptografado.
+**Recursos:** busca, alertas de vencimento, **dashboard dinâmico de efetividade**, gráficos por tipo de negociação, radar de vencimentos, confirmação manual de pagamentos, conquistas e armazenamento local criptografado.
 
 **Tecnologias identificadas:** HTML5, CSS3, JavaScript e Web Crypto API. Desenvolvimento apoiado por GPT/Codex.
 
-[Conhecer o Preventivo](projetos/preventivo/README.md) · [Como surgiu e onde é utilizado](projetos/preventivo/CONTEXTO-PROFISSIONAL.md)
+[Conhecer o Preventivo](projetos/preventivo/README.md) · [Telas e funcionalidades](projetos/preventivo/TELAS-E-FLUXOS.md) · [Como surgiu e onde é utilizado](projetos/preventivo/CONTEXTO-PROFISSIONAL.md)
 
 ### Eternal Ascension TD — jogo para Windows e presença web
 
