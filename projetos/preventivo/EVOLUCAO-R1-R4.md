@@ -6,7 +6,7 @@
 
 ## O problema que quis resolver
 
-Ao utilizar o Preventivo para acompanhar promessas e acordos de pagamento, identifiquei a necessidade de manter **anotações rápidas e específicas em cada negócio**. A informação precisava ficar fácil de localizar sem aumentar a quantidade de janelas abertas durante o atendimento.
+Ao utilizar o Preventivo para acompanhar promessas e acordos de pagamento, percebi que precisava de **anotações rápidas e específicas para cada negócio**. A informação precisava ficar fácil de localizar sem aumentar a quantidade de janelas abertas durante o atendimento.
 
 Além de criar a funcionalidade, procurei manter os cartões legíveis, visualmente consistentes entre os diferentes temas e compatíveis com o cofre local criptografado.
 
@@ -38,7 +38,7 @@ A mudança de tema deve personalizar o contexto da aplicação, não prejudicar 
 
 Na R4, padronizei o preenchimento azul dos cartões, inclusive quando o fundo geral, os painéis e os filtros estão em vermelho. Acrescentei um contorno fino com degradê, reflexo e textura discretos sem transformar o cartão em um elemento excessivamente chamativo. O destaque de hover não altera o preenchimento do cartão, e o estilo respeita a preferência do sistema por movimento reduzido.
 
-A alteração foi **exclusivamente visual**: nessa revisão, apenas a folha de estilos foi modificada; estrutura HTML, lógica JavaScript, configurações de cabeçalhos e esquema dos dados permaneceram preservados, conforme o registro técnico da entrega.
+A alteração foi **exclusivamente visual**: nessa revisão, modifiquei apenas a folha de estilos. A estrutura HTML, a lógica JavaScript, as configurações de cabeçalhos e o esquema dos dados permaneceram preservados, conforme o registro técnico da entrega.
 
 ## Verificações da implementação
 
@@ -59,7 +59,7 @@ O processo mostra a importância da **validação humana do resultado gerado com
 
 ## Resultado e próximos passos
 
-Consolidei a **R4 como base oficial protegida para futuras evoluções**, sem sobrescrever as revisões anteriores. Para avaliar o impacto real das bandeirinhas entre os profissionais que usam o Preventivo, ainda são necessários homologação em ambiente apropriado e feedback específico sobre a revisão.
+Consolidei a **R4 como base oficial protegida para futuras evoluções**, sem sobrescrever as revisões anteriores. Para avaliar o impacto real das bandeirinhas entre os profissionais que usam o Preventivo, ainda preciso homologar a revisão em ambiente apropriado e coletar feedback específico sobre ela.
 
 Não atribuo à R4 ganhos de produtividade ou tempo economizado sem medição. As aproximadamente 15 pessoas mencionadas no [estudo de caso principal](README.md) utilizam e avaliam o **Preventivo como produto**, e esse dado não comprova, por si só, a adoção da R4.
 
