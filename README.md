@@ -20,7 +20,9 @@ Atualmente, cerca de **15 outros profissionais** utilizam e avaliam a solução,
 
 **Tecnologias identificadas:** HTML5, CSS3, JavaScript e Web Crypto API. Desenvolvimento apoiado por GPT/Codex.
 
-[Conhecer o Preventivo](projetos/preventivo/README.md) · [Telas e funcionalidades](projetos/preventivo/TELAS-E-FLUXOS.md) · [Como surgiu e onde é utilizado](projetos/preventivo/CONTEXTO-PROFISSIONAL.md)
+**Evolução técnica documentada:** implementei um ciclo de quatro revisões de interface, com bandeirinhas de anotações, leitura inline e padronização visual de cartões entre cinco temas. A **R4, aprovada como base de desenvolvimento**, teve **27 testes de interface e 5 verificações criptográficas** registrados em ambiente local; a implantação dessa revisão no site em produção ainda não foi confirmada.
+
+[Conhecer o Preventivo](projetos/preventivo/README.md) · [Telas e funcionalidades](projetos/preventivo/TELAS-E-FLUXOS.md) · [Redesign R1–R4](projetos/preventivo/EVOLUCAO-R1-R4.md) · [Validação R4](projetos/preventivo/VALIDACAO-R4.md) · [Contexto profissional](projetos/preventivo/CONTEXTO-PROFISSIONAL.md)
 
 ### Eternal Ascension TD — jogo para Windows e presença web
 
