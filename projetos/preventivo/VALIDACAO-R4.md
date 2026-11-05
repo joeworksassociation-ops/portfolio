@@ -33,11 +33,11 @@ Os 27 cenários da R4 dão continuidade aos 23 testes da R3 e incluem quatro ver
 
 **Interface e acessibilidade:** o preenchimento do cartão foi identificado como `rgb(16, 46, 66)` em todos os cinco temas; as características computadas da borda, textura e sombra permaneceram consistentes. As interações de anotação foram exercitadas após a mudança visual.
 
-**Anotações:** nas verificações herdadas da R3, foram exercitados criação, seleção, troca de nota, edição por duplo clique e por teclado, fechamento sem exclusão e renderização do texto como texto seguro, sem interpretação de HTML inserido pelo usuário.
+**Anotações:** nas verificações herdadas da R3, foram testadas a criação, a seleção, a troca de notas, a edição por duplo clique e por teclado, o fechamento sem exclusão e a exibição de texto sem executar HTML inserido pelo usuário.
 
-**Criptografia (bateria separada):** cifra e decifra com AES-GCM 256 bits e derivação de chave PBKDF2 com 600 mil iterações; dados de anotação ausentes do JSON legível; rejeição de senha incorreta; leitura de etiquetas legadas sem ícone; rejeição de identificador de ícone fora do catálogo permitido.
+**Criptografia (bateria separada):** cifragem e decifragem com AES-GCM de 256 bits e derivação de chave PBKDF2 com 600 mil iterações; dados de anotação ausentes do JSON legível; rejeição de senha incorreta; leitura de etiquetas legadas sem ícone; rejeição de identificador de ícone fora do catálogo permitido.
 
-**Regressão funcional:** os registros dos testes preservam os fluxos preexistentes de pagamento manual, cadastro, cofre e backups. A R4 não introduziu uma nova lógica de pagamentos nem uma conexão automática com sistemas financeiros.
+**Regressão funcional:** os testes verificaram a preservação dos fluxos preexistentes de confirmação manual de pagamentos, cadastro, cofre e backups. A R4 não introduziu uma nova lógica de pagamentos nem uma conexão automática com sistemas financeiros.
 
 ## Limitações e evidências
 
