@@ -50,6 +50,18 @@ Cada cartão de negócio mostra dados essenciais, tipo, vencimento, estado do pa
 
 **O que demonstra:** estados de interface coerentes, feedback visual imediato e integração entre ações do usuário e indicadores do dashboard.
 
+## Anotações por bandeirinhas — evolução recente R2/R3/R4
+
+Na revisão mais recente, também redesenhei o cabeçalho de cada cartão para incluir **bandeirinhas coloridas e personalizáveis**, usadas como atalhos para notas relacionadas a cada negociação. As bandeirinhas ficam na faixa superior central e o botão `+` permanece separado à direita.
+
+O usuário pode **clicar em uma bandeirinha para ler a anotação no centro do próprio cartão**, escolher outra nota e editar por duplo clique ou botão específico; isso também favorece o uso por teclado e dispositivos de toque. As notas continuam vinculadas aos registros armazenados no cofre local criptografado. O limite documentado é de 12 bandeirinhas por negócio, com nove ícones e seis cores.
+
+A **R4** preserva o preenchimento azul dos cartões em todos os temas — inclusive o vermelho — e aplica um contorno luminoso discreto. A R4 está consolidada como base de desenvolvimento, **sem comprovação de implantação em produção nesta auditoria**.
+
+**Para ver a evolução e os testes:** [estudo de caso R1–R4](EVOLUCAO-R1-R4.md) · [validação da R4](VALIDACAO-R4.md).
+
+> **Atenção à galeria:** as capturas antigas exibidas na conversa mostram o Preventivo antes dessas revisões. Não devo apresentar uma tela antiga como comprovação visual da R4. Capturas futuras da R4 só serão publicadas após validação com dados fictícios ou anonimização integral.
+
 ## 5. Filtros, pesquisa e lista de negócios
 
 A interface oferece busca por nome ou identificador e filtros de tipo e situação. Em listas extensas, o rolamento interno ajuda a manter o painel de indicadores acessível enquanto os registros são consultados.
