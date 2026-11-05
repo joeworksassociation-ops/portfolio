@@ -18,7 +18,7 @@ Na versão do site que consultei, identifiquei:
 - Galeria de quatro cenários do jogo.
 - Informações sobre versões e evolução do produto.
 
-**Tecnologias e publicação verificadas:** interface web entregue em HTML e hospedagem em **Cloudflare Pages** (`pages.dev`). As prévias dos mapas são publicadas no formato **WebP**. Ainda preciso confirmar, diretamente nos arquivos do projeto, os estilos, scripts, dependências e possíveis frameworks antes de apresentar uma stack mais detalhada.
+**Tecnologias e publicação verificadas:** a interface usa HTML, e o site está hospedado no **Cloudflare Pages** (`pages.dev`). As prévias dos mapas são publicadas no formato **WebP**. Ainda preciso confirmar, diretamente nos arquivos do projeto, os estilos, scripts, dependências e possíveis frameworks antes de apresentar uma stack mais detalhada.
 
 ## Galeria dos mapas
 
@@ -38,7 +38,7 @@ As imagens abaixo já estão disponíveis no meu site oficial e são utilizadas 
 
 ## Desenvolvimento e evolução
 
-Procuro manter coerência entre a identidade visual do jogo, a experiência web e os materiais publicados. **Atualização de conteúdo pendente:** a versão pública consultada em 4 de novembro de 2026 ainda informa **0.1.44** na seção *Versão atual*, no *Histórico de versões* e no rodapé. Preciso atualizar essas referências à identificação de distribuição **1.0.48.0** (informada pelo pacote MSIX da Microsoft Store) e revisar as notas para que descrevam apenas funcionalidades da versão efetivamente publicada. Não confundo essa identificação com versões privadas de desenvolvimento.
+Procuro manter coerência entre a identidade visual do jogo, a experiência web e os materiais publicados. **Atualização de conteúdo pendente:** na consulta realizada em 4 de novembro de 2026, a versão pública ainda informava **0.1.44** na seção *Versão atual*, no *Histórico de versões* e no rodapé. Preciso atualizar essas referências à identificação de distribuição **1.0.48.0** (informada pelo pacote MSIX da Microsoft Store) e revisar as notas para que descrevam apenas funcionalidades da versão efetivamente publicada. Não confundo essa identificação com versões privadas de desenvolvimento.
 
 Meu próximo passo de documentação é acrescentar a inspeção técnica do próprio site, incluindo tecnologias de implementação, recursos interativos, responsividade e decisões de design.
 
