@@ -4,11 +4,11 @@
 
 Criei o Preventivo para acompanhar negociações em um fluxo de atendimento que exige consultas rápidas, organização de prazos e visualização de resultados. As telas documentadas abaixo mostram como transformei essa necessidade em uma aplicação web utilizável no dia a dia.
 
-> **Sobre as imagens:** recebi dez capturas da interface e preparei uma seleção para a galeria. Algumas imagens originais contêm nomes de pessoas e uma delas contém CPF legível. Por segurança, os PNGs não integram este repositório até a revisão final de anonimização. O simples desfoque de um sobrenome pode não impedir a identificação quando o restante do nome permanece visível. As capturas definitivas terão nomes completos e CPFs substituídos por dados fictícios ou coberturas opacas. Os indicadores de tela descrevem os registros de demonstração e não representam métricas verificadas da operação.
+> **Sobre as imagens:** selecionei dez capturas da interface e preparei versões editadas, com partes dos nomes desfocadas e ocultação do CPF que aparecia integralmente no formulário. Autorizei a apresentação dessas versões no portfólio. A publicação dos arquivos PNG no GitHub ainda não foi concluída devido a uma limitação técnica na transferência dos arquivos; por enquanto, mantenho abaixo a documentação das telas. Os indicadores exibidos nos prints são estados dos registros mostrados na interface, não medições de produtividade da operação.
 
 ## Roteiro da galeria visual
 
-A sequência foi selecionada para contar a história do produto de forma compreensível para recrutadores. As legendas abaixo indicam o papel de cada captura; a galeria de imagens será adicionada somente quando as versões sem identificadores estiverem verificadas.
+A sequência foi selecionada para contar a história do produto de forma compreensível para recrutadores. As legendas abaixo indicam o papel de cada captura; a galeria de imagens será adicionada quando a transferência dos PNGs editados para o GitHub for concluída.
 
 | Ordem | Captura | O que observar |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ A sequência foi selecionada para contar a história do produto de forma compree
 | 8 | Conquista desbloqueada | Feedback de gamificação para uma confirmação registrada |
 | 9 | Menu lateral | Organização da navegação, acesso a funções e escolha de tema |
 
-As telas com registros são exemplos de interface, **não provas de pagamentos**, nem dados aptos à divulgação pública. A confirmação do pagamento depende do usuário e do sistema autorizado.
+As telas com registros documentam a interface e seus estados visuais, **não constituindo provas de pagamento**. A confirmação do pagamento depende do usuário e do sistema autorizado.
 
 ## 1. Cofre de acesso e proteção local
 
@@ -60,7 +60,7 @@ A **R4** preserva o preenchimento azul dos cartões em todos os temas — inclus
 
 **Para ver a evolução e os testes:** [estudo de caso R1–R4](EVOLUCAO-R1-R4.md) · [validação da R4](VALIDACAO-R4.md).
 
-> **Atenção à galeria:** as capturas antigas exibidas na conversa mostram o Preventivo antes dessas revisões. Não devo apresentar uma tela antiga como comprovação visual da R4. Capturas futuras da R4 só serão publicadas após validação com dados fictícios ou anonimização integral.
+> **Atenção à galeria:** os prints editados documentam uma versão anterior às revisões R2–R4. Não os apresento como comprovação visual das novas bandeirinhas ou das bordas luminosas. Para ilustrar visualmente a R4, usarei capturas específicas dessa revisão, com dados apropriados para divulgação.
 
 ## 5. Filtros, pesquisa e lista de negócios
 
@@ -100,6 +100,6 @@ A aplicação possui menu lateral com acesso à visão geral, negócios, métric
 
 Identifiquei o problema na rotina profissional, defini as funcionalidades necessárias, acompanhei a implementação assistida por **GPT/Codex**, executei testes e utilizei feedback de outros profissionais para orientar melhorias. A IA foi uma **ferramenta de desenvolvimento**, não um sistema de decisão automatizada embutido no Preventivo.
 
-Os dados permanecem sob controle local do usuário, com exportação/importação manual de backup. Não publico neste portfólio código interno, registros de clientes, CPF, nomes de usuários, backups ou dados da organização.
+Os dados permanecem armazenados localmente, e a transferência entre dispositivos depende da exportação e da importação manual de um backup criptografado. Não publico neste portfólio código interno, registros de clientes, CPF, nomes de usuários, backups ou dados da organização.
 
 **Voltar ao [estudo de caso principal](README.md)** · [Entender a origem da solução](CONTEXTO-PROFISSIONAL.md)
