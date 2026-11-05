@@ -4,7 +4,25 @@
 
 Criei o Preventivo para acompanhar negociações em um fluxo de atendimento que exige consultas rápidas, organização de prazos e visualização de resultados. As telas documentadas abaixo mostram como transformei essa necessidade em uma aplicação web utilizável no dia a dia.
 
-> **Sobre as imagens:** os fluxos abaixo foram identificados em capturas da aplicação. As capturas originais não foram publicadas aqui porque algumas exibem informações identificáveis nos registros de exemplo ou de uso. A futura galeria utilizará somente imagens com dados fictícios ou integralmente anonimizados. Os indicadores mostrados em telas demonstrativas não são alegações de ganho de produtividade.
+> **Sobre as imagens:** recebi dez capturas da interface e preparei uma seleção para a galeria. Algumas imagens originais contêm nomes de pessoas e uma delas contém CPF legível. Por segurança, os PNGs não integram este repositório até a revisão final de anonimização. O simples desfoque de um sobrenome pode não impedir a identificação quando o restante do nome permanece visível. As capturas definitivas terão nomes completos e CPFs substituídos por dados fictícios ou coberturas opacas. Os indicadores de tela descrevem os registros de demonstração e não representam métricas verificadas da operação.
+
+## Roteiro da galeria visual
+
+A sequência foi selecionada para contar a história do produto de forma compreensível para recrutadores. As legendas abaixo indicam o papel de cada captura; a galeria de imagens será adicionada somente quando as versões sem identificadores estiverem verificadas.
+
+| Ordem | Captura | O que observar |
+| --- | --- | --- |
+| 1 | Tela de abertura do cofre | Proteção por senha, interface de entrada e orientações sobre backup |
+| 2 | Visão geral e dashboard | Pesquisa, filtros, gráfico circular de efetividade e contadores automáticos |
+| 3 | Cadastro de novo negócio | Campos opcionais, tipo de negociação e escolha da data |
+| 4 | Negócios não pagos | Acompanhamento de promessas, vencimentos e ação de confirmação |
+| 5 | Negócios pagos | Mudança visual de estado e feedback após confirmação manual |
+| 6 | Métricas e radar de vencimentos | Barras por tipo e separação entre vencidos, vencimento hoje e a vencer |
+| 7 | Save e transferência | Backup protegido por senha e importação em outro dispositivo |
+| 8 | Conquista desbloqueada | Feedback de gamificação para uma confirmação registrada |
+| 9 | Menu lateral | Organização da navegação, acesso a funções e escolha de tema |
+
+As telas com registros são exemplos de interface, **não provas de pagamentos**, nem dados aptos à divulgação pública. A confirmação do pagamento depende do usuário e do sistema autorizado.
 
 ## 1. Cofre de acesso e proteção local
 
