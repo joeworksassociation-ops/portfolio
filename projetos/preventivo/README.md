@@ -17,10 +17,14 @@ Com apoio do **GPT/Codex**, construí uma aplicação web com:
 - Destaque para compromissos próximos do vencimento ou atrasados.
 - Ação de cópia rápida de identificadores para consultas autorizadas no sistema de origem.
 - Atualização **manual** da situação do pagamento, após a verificação no sistema apropriado.
-- Painel com indicadores de efetividade.
+- **Dashboard dinâmico** com indicador circular de efetividade, contadores de pagamentos, gráficos por tipo de negociação e radar de vencimentos.
+- **Filtros de pesquisa** por tipo e situação, com atualização automática dos indicadores conforme os registros são alterados.
+- **Conquistas e feedback visual** ao confirmar novos resultados.
 - Cofre local criptografado, com exportação e importação de backups protegidos por senha.
 
-A aplicação **não acessa diretamente os pagamentos do sistema de origem** e não utiliza IA para classificar clientes ou prever inadimplência. Utilizei IA **para desenvolver e aprimorar o software**.
+Os percentuais e gráficos são calculados automaticamente com base no estado dos negócios cadastrados, mas **a confirmação de pagamento continua manual** após consulta autorizada. A aplicação **não acessa diretamente os pagamentos do sistema de origem** e não utiliza IA para classificar clientes ou prever inadimplência. Utilizei IA **para desenvolver e aprimorar o software**.
+
+[Conheça as telas, os indicadores e os fluxos do Preventivo](TELAS-E-FLUXOS.md).
 
 ## Arquitetura
 
@@ -55,4 +59,4 @@ Continuo reunindo sugestões para evoluir a experiência de uso e as funcionalid
 
 ## Apresentação pública
 
-Neste portfólio, mostro o projeto e suas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo dados reais, backups dos usuários nem o código da aplicação utilizada no ambiente profissional. As futuras capturas serão feitas com conteúdo fictício ou devidamente desidentificado.
+Neste portfólio, mostro o projeto e suas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo dados reais, backups dos usuários nem o código da aplicação utilizada no ambiente profissional. As capturas recebidas estão em revisão para anonimização; as versões com identificadores visíveis permanecem fora do repositório público. Somente imagens com conteúdo fictício ou integralmente anonimizado serão publicadas.
