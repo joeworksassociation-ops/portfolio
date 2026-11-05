@@ -6,7 +6,7 @@
 
 Identifiquei, no meu trabalho com atendimento de cobrança, uma dificuldade recorrente: após registrar promessas ou acordos, era necessário voltar a consultar os pagamentos, mesmo enquanto outros clientes continuavam sendo atendidos.
 
-As anotações e planilhas não ofereciam uma experiência ágil e padronizada. Por isso, idealizei o **Preventivo** como ferramenta complementar para organizar registros e facilitar consultas durante o atendimento.
+As anotações e as planilhas não ofereciam uma experiência ágil e padronizada. Por isso, idealizei o **Preventivo** como ferramenta complementar para organizar registros e facilitar consultas durante o atendimento.
 
 ## O que desenvolvi
 
@@ -55,7 +55,7 @@ O armazenamento local e a criptografia são medidas de segurança, mas não subs
 
 Atualmente, aproximadamente **15 outros profissionais** utilizam e avaliam a ferramenta, contribuindo com testes e sugestões de melhorias. O projeto surgiu em uma operação de cobrança de produtos financeiros de **uma grande empresa brasileira do varejo de moda**.
 
-O ganho observado está na organização das informações, na identificação de vencimentos e na redução de etapas manuais durante o atendimento. Ainda não medi formalmente a economia de tempo ou qualquer impacto financeiro, por isso não atribuo números a esses benefícios.
+O ganho observado está na organização das informações, na identificação de vencimentos e na redução de etapas manuais durante o atendimento. Ainda não medi formalmente a economia de tempo ou qualquer impacto financeiro, por isso não atribuo resultados numéricos a esses benefícios.
 
 [Leia mais sobre o problema e a aplicação profissional](CONTEXTO-PROFISSIONAL.md).
 
@@ -71,4 +71,4 @@ Esses resultados não equivalem a uma auditoria externa de segurança nem compro
 
 ## Apresentação pública
 
-Neste portfólio, mostro o projeto e suas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo dados reais, backups dos usuários nem o código da aplicação utilizada no ambiente profissional. As capturas recebidas estão em revisão para anonimização; as versões com identificadores visíveis permanecem fora do repositório público. Somente imagens com conteúdo fictício ou integralmente anonimizado serão publicadas.
+Neste portfólio, mostro o projeto e suas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo dados reais, backups dos usuários nem o código da aplicação utilizada no ambiente profissional. As capturas que recebi foram editadas para ocultar dados identificáveis, e autorizei sua utilização no portfólio. A inclusão dos arquivos PNG no repositório público ainda está pendente por uma limitação técnica de transferência; por enquanto, a apresentação visual permanece documentada em texto.
