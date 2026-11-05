@@ -26,6 +26,14 @@ Os percentuais e gráficos são calculados automaticamente com base no estado do
 
 [Conheça as telas, os indicadores e os fluxos do Preventivo](TELAS-E-FLUXOS.md).
 
+## Evolução recente — R1 a R4 (novembro de 2026)
+
+A experiência com o Preventivo me levou a redesenhar os cartões para consultar **anotações específicas por negócio** sem interromper o atendimento. O processo passou por quatro revisões: rejeitei etiquetas ovais que prejudicavam a leitura (**R1**), introduzi **bandeirinhas personalizáveis com nove ícones e seis cores** (**R2**), passei a apresentar a nota **diretamente na área central do cartão**, com edição por duplo clique ou botão (**R3**), e corrigi a aparência do **tema vermelho**, acrescentando bordas luminosas sutis com cartões azuis preservados nos cinco temas (**R4**).
+
+Na R4, a correção foi limitada à camada de estilos: os dados, o cofre criptografado, a lógica de pagamento e os backups foram preservados conforme a documentação de auditoria. A versão foi **consolidada como base oficial de desenvolvimento em 05/11/2026**, mas **a sua implantação no site em produção não foi confirmada pelos testes disponíveis**. Não atribuo à R4, isoladamente, o uso já observado do produto por aproximadamente 15 colegas.
+
+**Documentação desta evolução:** [estudo de caso e histórico R1–R4](EVOLUCAO-R1-R4.md) · [validação técnica R4](VALIDACAO-R4.md).
+
 ## Arquitetura
 
 Na build analisada, foram identificados:
@@ -53,9 +61,13 @@ O ganho observado está na organização das informações, na identificação d
 
 ## Testes e evolução
 
-Testei as funcionalidades no uso prático e acompanhei o retorno de colegas. Na análise técnica realizada para preparar este portfólio, **14 verificações automatizadas isoladas passaram**, incluindo criptografia, recuperação por senha e validações de dados. Esses resultados não representam uma auditoria completa de segurança nem um teste integral da interface.
+Testei as funcionalidades no uso prático e acompanhei o retorno de colegas. Uma análise anterior para este portfólio registrou **14 verificações automatizadas isoladas**, incluindo criptografia, recuperação por senha e validação de dados.
 
-Continuo reunindo sugestões para evoluir a experiência de uso e as funcionalidades.
+Em uma **bateria posterior e distinta**, a revisão R3 registrou **23/23 testes de interface e 5/5 testes criptográficos**; a R4 ampliou essa cobertura para **27/27 testes de interface com Playwright/Chromium e 5/5 verificações separadas com Node Web Crypto**. A bateria de interface usou **simulação de armazenamento e criptografia**, enquanto os cinco testes criptográficos executaram Web Crypto real de forma isolada.
+
+Esses resultados não equivalem a uma auditoria externa de segurança nem comprovam que a R4 tenha sido homologada no domínio HTTPS de produção. Continuo reunindo feedback e preservando revisões para evolução e eventual reversão segura.
+
+[Detalhes dos cenários, testes e limitações](VALIDACAO-R4.md).
 
 ## Apresentação pública
 
