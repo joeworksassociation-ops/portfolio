@@ -1,0 +1,45 @@
+name: Importar capturas editadas do Preventivo
+on:
+  push:
+    paths:
+      - .github/workflows/importar-capturas-preventivo.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  importar-capturas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar os prints aprovados sem recriação
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p projetos/preventivo/imagens
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/36816532-fe17-417c-abff-61f4ce17d63d.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNmNlOTJhNTMxNGEwYTdkNiIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NDA0MjQ1MX0.XBXSDXHy0kMjfgB-2k8SpJEaDapRqvD-PxA5a6rMLjM' --output 'projetos/preventivo/imagens/01-acordo-nao-pago.png'
+          file 'projetos/preventivo/imagens/01-acordo-nao-pago.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/1694b966-7121-41e1-a331-43c618912086.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzlkZDM1MDEyMzAzNzI5YyIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NDAxOTg0MX0.FjLxYLxjBJ-ydhvtk4nPsV6zQhdh1bW27iieijS3MBY' --output 'projetos/preventivo/imagens/02-acordo-pago.png'
+          file 'projetos/preventivo/imagens/02-acordo-pago.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/9b8b27a1-521d-4877-9164-a23b7b9760b3.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOGNlYTQyMTgyMTE3NDhmMCIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDAwODk4NH0.p5pJjXgZEw_07HZI3bhetgAcnpe5rd09ZzIQc2vbklQ' --output 'projetos/preventivo/imagens/03-cadastro-com-calendario.png'
+          file 'projetos/preventivo/imagens/03-cadastro-com-calendario.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/22c23c8d-f846-409f-9a6e-2a937a4a2e3e.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiODEwZDkxN2RmNzFmNWE4YSIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDA2MjA3N30.k2STEo9Rfx2YQqFnCApVEHZPtcK0kNYGKRM34jOlX3w' --output 'projetos/preventivo/imagens/04-conquista.png'
+          file 'projetos/preventivo/imagens/04-conquista.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/7ddeb425-8e68-476e-a0bd-0bc21db0d889.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMTRhYmZiMTM0MDgzYjRiNyIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDAxNTI1MX0.ZHI1Z1io7-0WQzxQugFNLm-NGc_G3lbh90ZOmHRDeC8' --output 'projetos/preventivo/imagens/05-cofre.png'
+          file 'projetos/preventivo/imagens/05-cofre.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/1ccb4b30-2b64-4c52-a1a0-5b45c94c50f6.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjQyZDkzYTg4YjYwODk1NSIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDAxNjI5Nn0.Y7W5zkve1xT9vBBy7uBuOn38xiQ-YYhm9vOImT0pTqw' --output 'projetos/preventivo/imagens/06-metricas-backup.png'
+          file 'projetos/preventivo/imagens/06-metricas-backup.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/9d8da59e-ede5-47b3-ba1f-6093561dfe46.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYjBmYjUwZGIwZTAyYzQ1NiIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDA0NzQ1MX0._wutQFAWCmFQOzWwIUmi6y06einK64FRx00TspD8HPk' --output 'projetos/preventivo/imagens/07-cadastro-vazio.png'
+          file 'projetos/preventivo/imagens/07-cadastro-vazio.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/9a74c84b-c3bc-45aa-8f58-992ccb4b15d5.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWQzYzYwZWYxNTAzY2FhYiIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDA2NDM2N30.L5QnJywHmkc8tnJErF5f-jsBxXMeyvQ0gY8_sVXb0wE' --output 'projetos/preventivo/imagens/08-dashboard-pagos.png'
+          file 'projetos/preventivo/imagens/08-dashboard-pagos.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/2ebf99d5-d2d7-461f-a903-26fa608ab015.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiODg1YTM0YmFhNzUyYTFlMyIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDAwOTkxNH0.tSMAEyYwN77TFOw7-DpUw6rObAxypn6PJt3UsbWa9Ds' --output 'projetos/preventivo/imagens/09-menu-lateral.png'
+          file 'projetos/preventivo/imagens/09-menu-lateral.png' | grep -q 'PNG image data'
+          curl --fail --location --silent --show-error --retry 3 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/06b08917-b481-42d7-84fa-c7d72b3eedf0.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlYXNoIjoiN2EwOGE5MTQwYmQyM2QwMiIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHV4cCI6MTc5NDA2MzEyNH0.fhvmDvJAIAU88xNN_zrA5lv5_dEV5VOE3aXPuaUrGNA' --output 'projetos/preventivo/imagens/10-dashboard-pendentes.png'
+          file 'projetos/preventivo/imagens/10-dashboard-pendentes.png' | grep -q 'PNG image data'
+      - name: Registrar imagens no portfólio
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projetos/preventivo/imagens/*.png
+          git diff --cached --quiet || (git commit -m "docs: publica capturas editadas e aprovadas do Preventivo" && git push)
