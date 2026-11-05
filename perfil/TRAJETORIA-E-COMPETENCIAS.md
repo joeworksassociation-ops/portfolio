@@ -2,7 +2,7 @@
 
 ## Sobre mim
 
-Estou concluindo **Análise e Desenvolvimento de Sistemas**, com formatura prevista para dezembro de 2026. Gosto de transformar problemas observados na prática em produtos digitais úteis — da definição dos requisitos à validação com usuários.
+Estou concluindo a **graduação em Análise e Desenvolvimento de Sistemas** na Universidade Cruzeiro do Sul, com formatura prevista para dezembro de 2026. Gosto de transformar problemas observados na prática em produtos digitais úteis — da definição dos requisitos à validação com usuários.
 
 Nos meus projetos, utilizo **GPT/Codex** como apoio para implementar, revisar e aperfeiçoar código. Sou responsável por identificar necessidades, conceber as soluções, definir o comportamento esperado, testar funcionalidades e orientar as melhorias.
 
