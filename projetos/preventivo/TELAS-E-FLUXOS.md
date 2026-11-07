@@ -6,23 +6,24 @@ Criei o Preventivo para acompanhar negociações em um fluxo de atendimento que 
 
 > **Sobre as imagens:** selecionei dez capturas da interface de uma versão anterior às revisões R2–R4 e utilizei os PNGs já editados que forneci e autorizei para divulgação, sem nenhuma edição adicional. Publiquei os dez PNGs na pasta `imagens/`. Os dez arquivos publicados são cópias idênticas aos PNGs fornecidos, apenas renomeados. Os indicadores exibidos representam estados dos registros, não medições de produtividade da operação.
 
-## Roteiro da galeria visual
+## Navegação pela galeria
 
-Selecionei a sequência para apresentar as principais funções do produto. As dez capturas e minhas legendas estão na galeria abaixo; o roteiro também organiza os recursos descritos no estudo de caso.
+Organizei as dez capturas abaixo para mostrar os fluxos do produto. Os links levam às respectivas imagens na própria galeria; os prints representam uma versão anterior à 2.0.1.
 
-| Ordem | Captura | O que observar |
-| --- | --- | --- |
-| 1 | Tela de abertura do cofre | Proteção por senha, interface de entrada e orientações sobre backup |
-| 2 | Visão geral e dashboard | Pesquisa, filtros, gráfico circular de efetividade e contadores automáticos |
-| 3 | Cadastro de novo negócio | Campos opcionais, tipo de negociação e escolha da data |
-| 4 | Negócios não pagos | Acompanhamento de promessas, vencimentos e ação de confirmação |
-| 5 | Negócios pagos | Mudança visual de estado e feedback após confirmação manual |
-| 6 | Métricas e radar de vencimentos | Barras por tipo e separação entre vencidos, vencimento hoje e a vencer |
-| 7 | Save e transferência | Backup protegido por senha e importação em outro dispositivo |
-| 8 | Conquista desbloqueada | Feedback de gamificação para uma confirmação registrada |
-| 9 | Menu lateral | Organização da navegação, acesso a funções e escolha de tema |
+| Imagem | Funcionalidade apresentada |
+| --- | --- |
+| [1. Dashboard de pendentes](#dashboard-de-pendentes) | Busca, filtros, prazos e indicadores |
+| [2. Menu lateral](#menu-lateral) | Navegação e personalização de temas |
+| [3. Dashboard de pagos](#dashboard-de-pagos) | Negócios com pagamento confirmado manualmente |
+| [4. Cadastro vazio](#cadastro-vazio) | Inclusão de nova negociação |
+| [5. Métricas e backup](#métricas-e-backup) | Indicadores adicionais, exportação e importação |
+| [6. Cofre de acesso](#cofre-de-acesso) | Proteção local por senha |
+| [7. Conquista desbloqueada](#conquista-desbloqueada) | Feedback visual ao registrar pagamento |
+| [8. Cadastro protegido](#cadastro-protegido) | Exemplo de preenchimento com dados editados |
+| [9. Cartão pago](#cartão-pago) | Estado visual após confirmação |
+| [10. Cartão não pago](#cartão-não-pago) | Estado pendente e ação de atualização |
 
-As telas com registros documentam a interface e seus estados visuais, **não constituindo provas de pagamento**. A confirmação do pagamento depende do usuário e do sistema autorizado.
+As telas com registros documentam a interface e seus estados visuais; **não constituem comprovação financeira**. A confirmação de pagamentos é uma ação manual, realizada após consulta autorizada.
 
 ## Galeria de capturas publicadas
 
