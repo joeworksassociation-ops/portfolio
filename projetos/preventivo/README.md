@@ -77,13 +77,20 @@ O ganho observado está na organização das informações, na identificação d
 
 ## Testes e evolução
 
-Testei as funcionalidades no uso prático e acompanhei o retorno de colegas. Uma análise anterior para este portfólio registrou **14 verificações automatizadas isoladas**, incluindo criptografia, recuperação por senha e validação de dados.
+Testei as funcionalidades durante o desenvolvimento e acompanhei o retorno dos profissionais que utilizam a ferramenta. Para documentar o trabalho com transparência, distingo as diferentes baterias de validação:
 
-Em uma **bateria posterior e distinta**, a revisão R3 registrou **23/23 testes de interface e 5/5 testes criptográficos**; a R4 ampliou essa cobertura para **27/27 testes de interface com Playwright/Chromium e 5/5 verificações separadas com Node Web Crypto**. A bateria de interface usou **simulação de armazenamento e criptografia**, enquanto os cinco testes criptográficos executaram Web Crypto real de forma isolada.
+| Ciclo de revisão | Interface | Criptografia | Interpretação correta |
+| --- | --- | --- | --- |
+| **Análise inicial do portfólio** | 14 verificações automatizadas isoladas | Parte dos cenários analisados | Não equivale a auditoria integral da interface ou de segurança. |
+| **R3** | 23 cenários aprovados em Chromium | 5 verificações separadas com Web Crypto real | Interface testada com armazenamento e criptografia simulados. |
+| **R4** | 27 cenários aprovados com Playwright/Chromium | 5 verificações separadas com Web Crypto real | Incluiu testes de regressão e consistência visual de temas. |
+| **2.0.1** | 16 cenários aprovados em Chromium | 5 verificações separadas com Web Crypto real | Cobertura própria da versão, incluindo comportamento da conquista visual. |
 
-Esses resultados não equivalem a uma auditoria externa de segurança nem comprovam que a R4 tenha sido homologada no domínio HTTPS de produção. Continuo reunindo feedback e preservando revisões para evolução e eventual reversão segura.
+A quantidade de testes de uma versão não representa diretamente sua qualidade ou cobertura em relação a outra. **Não somo as baterias nem apresento testes locais como certificação externa.**
 
-[Detalhes dos cenários, testes e limitações](VALIDACAO-R4.md).
+Continuam necessários, conforme o caso, validação no domínio HTTPS em uso, verificação de comportamento nos equipamentos reais, avaliação do modo flutuante e testes independentes de segurança. Também não atribuo ganhos mensuráveis de produtividade sem uma medição apropriada.
+
+[Detalhes da validação histórica da R4](VALIDACAO-R4.md) · [Evolução e testes da versão 2.0.1](ATUALIZACAO-2.0.1.md).
 
 ## Apresentação pública
 
