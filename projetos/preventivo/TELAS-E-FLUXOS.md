@@ -116,17 +116,17 @@ Cada cartão de negócio mostra dados essenciais, tipo, vencimento, estado do pa
 
 **O que demonstra:** estados de interface coerentes, feedback visual imediato e integração entre ações do usuário e indicadores do dashboard.
 
-## Anotações por bandeirinhas — evolução recente R2/R3/R4
+## Anotações por bandeirinhas — histórico das revisões R2–R4
 
-Na revisão mais recente, também redesenhei o cabeçalho de cada cartão para incluir **bandeirinhas coloridas e personalizáveis**, usadas como atalhos para notas relacionadas a cada negociação. As bandeirinhas ficam na faixa superior central e o botão `+` permanece separado à direita.
+Nas revisões R2–R4, redesenhei o cabeçalho de cada cartão para incluir **bandeirinhas coloridas e personalizáveis**, usadas como atalhos para notas relacionadas a cada negociação. As bandeirinhas ficam na faixa superior central e o botão `+` permanece separado à direita.
 
 O usuário pode **clicar em uma bandeirinha para ler a anotação no centro do próprio cartão**, escolher outra nota e editar por duplo clique ou botão específico; isso também favorece o uso por teclado e dispositivos de toque. As notas continuam vinculadas aos registros armazenados no cofre local criptografado. O limite documentado é de 12 bandeirinhas por negócio, com nove ícones e seis cores.
 
-A **R4** preserva o preenchimento azul dos cartões em todos os temas — inclusive o vermelho — e aplica um contorno luminoso discreto. A R4 está consolidada como base de desenvolvimento, **sem comprovação de implantação em produção nesta auditoria**.
+A revisão histórica **R4** preservou o preenchimento azul dos cartões em todos os temas — inclusive o vermelho — e aplicou um contorno luminoso discreto. **A base oficial mais recente é a 2.0.1**, aprovada em 6 de novembro de 2026; [documentei separadamente suas mudanças e seus testes](ATUALIZACAO-2.0.1.md).
 
 **Para ver a evolução e os testes:** [estudo de caso R1–R4](EVOLUCAO-R1-R4.md) · [validação da R4](VALIDACAO-R4.md).
 
-> **Atenção à galeria:** os prints editados documentam uma versão anterior às revisões R2–R4. Não os apresento como comprovação visual das novas bandeirinhas ou das bordas luminosas. Para ilustrar visualmente a R4, usarei capturas específicas dessa revisão, com dados apropriados para divulgação.
+> **Sobre as capturas:** os dez prints editados documentam uma versão anterior às revisões R2–R4 e à atual 2.0.1. Não os apresento como evidência visual de funcionalidades ou elementos gráficos acrescentados depois. A evolução posterior está registrada em [histórico R1–R4](EVOLUCAO-R1-R4.md) e na [atualização 2.0.1](ATUALIZACAO-2.0.1.md).
 
 ## 5. Filtros, pesquisa e lista de negócios
 
