@@ -29,6 +29,10 @@ Esse ciclo demonstra como combino instruções à IA, avaliação de interface, 
 
 Meu objetivo não é apenas obter código gerado por IA, mas validar se a solução funciona para o problema proposto. Uma análise anterior para este portfólio registrou **14 verificações automatizadas isoladas**. Em revisões posteriores, a R3 registrou **23 testes de interface e cinco verificações criptográficas**; a R4 registrou **27 testes de interface com Playwright/Chromium e cinco verificações separadas com Node Web Crypto**, todos aprovados nos cenários reportados.
 
-A bateria de interface das revisões R3/R4 usou simulações de armazenamento e criptografia; os testes de Web Crypto real foram executados separadamente. **A R4 é uma base consolidada de desenvolvimento, não uma implantação em produção comprovada.** Esses resultados não substituem auditoria externa de segurança, homologação em HTTPS ou medições operacionais.
+A bateria de interface das revisões R3/R4 usou simulações de armazenamento e criptografia; os testes de Web Crypto real foram executados separadamente.
 
-Não apresento resultados financeiros ou ganhos de tempo que ainda não foram medidos. [Leia o escopo e os limites da validação](../projetos/preventivo/VALIDACAO-R4.md).
+**Evolução posterior:** em 6 de novembro de 2026, consolidei a **2.0.1 como base oficial do Preventivo**. Nessa revisão, foram registrados **16 testes de interface** e **5 verificações criptográficas separadas**, aprovados em ambiente de testes. São baterias diferentes das da R4, não uma soma de testes nem uma comparação direta de cobertura.
+
+Segundo meu registro de projeto, publiquei a aplicação no Cloudflare Pages, mas esse relato não equivale a homologação independente do ambiente de produção. A disponibilidade real do modo flutuante Document Picture-in-Picture ainda depende do navegador e das políticas dos dispositivos.
+
+Não apresento resultados financeiros nem ganhos de tempo que ainda não foram medidos. [Leia a validação histórica da R4](../projetos/preventivo/VALIDACAO-R4.md) e o [estudo de caso da 2.0.1](../projetos/preventivo/ATUALIZACAO-2.0.1.md).
