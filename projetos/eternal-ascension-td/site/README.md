@@ -38,8 +38,14 @@ As imagens abaixo já estão disponíveis no meu site oficial e são utilizadas 
 
 ## Desenvolvimento e evolução
 
-Procuro manter coerência entre a identidade visual do jogo, a experiência web e os materiais publicados. **Atualização de conteúdo pendente:** na consulta realizada em 4 de novembro de 2026, a versão pública ainda informava **0.1.44** na seção *Versão atual*, no *Histórico de versões* e no rodapé. Preciso atualizar essas referências à identificação de distribuição **1.0.48.0** (informada pelo pacote MSIX da Microsoft Store) e revisar as notas para que descrevam apenas funcionalidades da versão efetivamente publicada. Não confundo essa identificação com versões privadas de desenvolvimento.
+Procuro manter coerência entre a identidade visual do jogo, a experiência web e os materiais publicados.
 
-Meu próximo passo de documentação é acrescentar a inspeção técnica do próprio site, incluindo tecnologias de implementação, recursos interativos, responsividade e decisões de design.
+**Estado verificado em 6 de novembro de 2026:** ao consultar o site público, encontrei **0.1.44** nas seções *Versão atual*, *Histórico de versões* e no rodapé. Portanto, a página ainda precisa de uma revisão editorial para refletir corretamente os lançamentos posteriores.
+
+Em um trabalho anterior, identifiquei um pacote Windows com numeração técnica **1.0.48.0 (MSIX x64)**. Também mantenho versões consolidadas para desenvolvimento e testes. **Essas numerações não devem ser tratadas automaticamente como equivalentes à versão disponível na Microsoft Store**, pois a versão pública da loja não foi confirmada de forma independente nesta revisão.
+
+Meu próximo passo para o site é verificar a versão efetivamente distribuída e então alinhar título, histórico, notas de atualização e rodapé, distinguindo as versões publicadas dos pacotes internos. **Não alterei o site em produção durante esta revisão do portfólio.**
+
+Para tornar este estudo de caso mais completo, ainda pretendo registrar uma inspeção técnica da responsividade, acessibilidade, recursos interativos e dependências diretamente nos arquivos do projeto.
 
 **Distribuição do jogo:** exclusivamente pela [Microsoft Store](https://apps.microsoft.com/detail/9P6JJJGWBRQ3?hl=pt-br&gl=BR). Nenhum executável, código-fonte ou pacote de instalação é distribuído neste portfólio.
