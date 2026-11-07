@@ -16,13 +16,17 @@ Criei o Preventivo para organizar promessas e acordos de pagamento, acompanhar v
 
 Atualmente, cerca de **15 outros profissionais** utilizam e avaliam a solução, contribuindo com sugestões para sua evolução.
 
+![Visão do dashboard do Preventivo em versão anterior, com informações editadas](projetos/preventivo/imagens/01-dashboard-pendentes.png)
+
+*Captura editada e autorizada para apresentação do projeto. Esta interface é anterior à versão 2.0.1.*
+
 **Recursos:** busca, alertas de vencimento, **dashboard dinâmico de efetividade**, gráficos por tipo de negociação, radar de vencimentos, confirmação manual de pagamentos, conquistas e armazenamento local criptografado.
 
 **Tecnologias identificadas:** HTML5, CSS3, JavaScript e Web Crypto API. Desenvolvimento apoiado por GPT/Codex.
 
-**Evolução técnica documentada:** implementei um ciclo de quatro revisões de interface, com bandeirinhas de anotações, leitura inline e padronização visual de cartões entre cinco temas. A **R4, aprovada como base de desenvolvimento**, teve **27 testes de interface e 5 verificações criptográficas** registrados em ambiente local; a implantação dessa revisão no site em produção ainda não foi confirmada.
+**Versão oficial de referência: 2.0.1 (06/11/2026).** Evoluí o produto desde as bandeirinhas e a leitura de anotações até o cadastro compacto, modo flutuante experimental com Document Picture-in-Picture, dashboard animado, login com identidade FireMohawk e conquistas visuais que não bloqueiam o atendimento. Na revisão 2.0.1 foram registrados **16 testes de interface e 5 verificações de criptografia aprovados** em baterias locais distintas. A publicação no Cloudflare Pages foi realizada por mim, segundo o registro do projeto; a homologação da implantação e do PiP no ambiente operacional ainda requer validação própria.
 
-[Conhecer o Preventivo](projetos/preventivo/README.md) · [Telas e funcionalidades](projetos/preventivo/TELAS-E-FLUXOS.md) · [Redesign R1–R4](projetos/preventivo/EVOLUCAO-R1-R4.md) · [Validação R4](projetos/preventivo/VALIDACAO-R4.md) · [Contexto profissional](projetos/preventivo/CONTEXTO-PROFISSIONAL.md)
+[Conhecer o Preventivo](projetos/preventivo/README.md) · **[Ver galeria com 10 prints](projetos/preventivo/GALERIA-GITHUB.md)** · [Atualização 2.0.1](projetos/preventivo/ATUALIZACAO-2.0.1.md) · [Histórico R1–R4](projetos/preventivo/EVOLUCAO-R1-R4.md) · [Contexto profissional](projetos/preventivo/CONTEXTO-PROFISSIONAL.md)
 
 ### Eternal Ascension TD — jogo para Windows e presença web
 
