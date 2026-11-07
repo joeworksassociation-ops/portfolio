@@ -1,6 +1,6 @@
 # Preventivo — estudo de caso
 
-**Aplicação web de acompanhamento de negociações | Desenvolvimento assistido por GPT/Codex**
+**Aplicação web de acompanhamento de negociações | Versão oficial 2.0.1 | Desenvolvimento assistido por GPT/Codex**
 
 ## Como surgiu
 
@@ -24,7 +24,7 @@ Com apoio do **GPT/Codex**, construí uma aplicação web com:
 
 Os percentuais e gráficos são calculados automaticamente com base no estado dos negócios cadastrados, mas **a confirmação de pagamento continua manual** após consulta autorizada. A aplicação **não acessa diretamente os pagamentos do sistema de origem** e não utiliza IA para classificar clientes ou prever inadimplência. Utilizei IA **para desenvolver e aprimorar o software**.
 
-[Conheça as telas, os indicadores e os fluxos do Preventivo](TELAS-E-FLUXOS.md).
+[Explore as **dez capturas editadas já publicadas** e os fluxos do Preventivo](GALERIA-GITHUB.md) · [Documentação funcional detalhada](TELAS-E-FLUXOS.md).
 
 ## Evolução recente — R1 a R4 (novembro de 2026)
 
@@ -33,6 +33,22 @@ A experiência com o Preventivo me levou a redesenhar os cartões para consultar
 Na R4, a correção foi limitada à camada de estilos: os dados, o cofre criptografado, a lógica de pagamento e os backups foram preservados conforme a documentação de auditoria. A versão foi **consolidada como base oficial de desenvolvimento em 05/11/2026**, mas **a sua implantação no site em produção não foi confirmada pelos testes disponíveis**. Não atribuo à R4, isoladamente, o uso já observado do produto por aproximadamente 15 colegas.
 
 **Documentação desta evolução:** [estudo de caso e histórico R1–R4](EVOLUCAO-R1-R4.md) · [validação técnica R4](VALIDACAO-R4.md).
+
+## Versão oficial 2.0.1 — atualização de novembro de 2026
+
+Em **6 de novembro de 2026**, aprovei a **2.0.1** como nova base consolidada de desenvolvimento, sucedendo as revisões anteriores. O aplicativo evoluiu com:
+
+- **Dashboard animado e filtros por período**, mantendo a confirmação de pagamentos manual.
+- **Cadastro compacto** e **modo flutuante experimental** com Document Picture-in-Picture, sujeito à compatibilidade do navegador e às permissões do equipamento.
+- **Login redesenhado**, identidade FireMohawk preservada e indicação discreta da versão.
+- **Anotações por bandeirinhas**, com cores e ícones, integradas ao cadastro e à consulta dos negócios.
+- **Feedback de conquista sem bloqueio da interface**: troféu, moedas e pequenas cédulas, com respeito à preferência por movimento reduzido.
+
+No ciclo de testes registrado para essa versão, passaram **16/16 verificações de interface** em Chromium, com armazenamento e criptografia simulados, e **5/5 verificações separadas com Web Crypto real**. São cenários específicos da 2.0.1, distintos dos **27 testes de interface** documentados anteriormente para a R4.
+
+**Já publiquei a aplicação no Cloudflare Pages**, conforme registrei no histórico do projeto, mas esta documentação não equivale a uma auditoria independente da implantação ou à homologação do modo Picture-in-Picture em todos os computadores.
+
+[Leia o estudo de caso da atualização 2.0.1](ATUALIZACAO-2.0.1.md). As dez capturas atualmente exibidas no portfólio são de uma versão anterior e não representam visualmente as mudanças específicas da 2.0.1.
 
 ## Arquitetura
 
@@ -47,7 +63,7 @@ Na build analisada, foram identificados:
 | Derivação de chave | PBKDF2-HMAC-SHA-256, 600 mil iterações |
 | Backup | Arquivo JSON criptografado, recuperável com senha |
 
-Optei por uma arquitetura **local-first**, sem login ou sincronização de registros em nuvem. O usuário precisa manter um backup criptografado para recuperar seus dados em outro computador ou depois da limpeza do armazenamento do navegador.
+Optei por uma arquitetura **local-first**, com acesso ao cofre protegido por senha, **sem conta de usuário em serviço remoto nem sincronização de registros em nuvem**. O usuário precisa manter um backup criptografado para recuperar seus dados em outro computador ou depois da limpeza do armazenamento do navegador.
 
 O armazenamento local e a criptografia são medidas de segurança, mas não substituem a avaliação dos procedimentos de proteção de dados no ambiente de utilização.
 
@@ -71,4 +87,4 @@ Esses resultados não equivalem a uma auditoria externa de segurança nem compro
 
 ## Apresentação pública
 
-Neste portfólio, mostro o projeto e suas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo dados reais, backups dos usuários nem o código da aplicação utilizada no ambiente profissional. As capturas que recebi foram editadas para ocultar dados identificáveis, e autorizei sua utilização no portfólio. A inclusão dos arquivos PNG no repositório público ainda está pendente por uma limitação técnica de transferência; por enquanto, a apresentação visual permanece documentada em texto.
+Neste portfólio, mostro o projeto e minhas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo código-fonte, backups de usuários, credenciais ou pacotes de implantação. **Já publiquei dez capturas editadas**, que selecionei e autorizei para esta apresentação, mantendo os arquivos de imagem separados do código privado. As capturas ilustram uma versão anterior do produto; a evolução até a 2.0.1 está descrita em documentação própria. [Veja a galeria](GALERIA-GITHUB.md).
