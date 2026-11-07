@@ -4,7 +4,7 @@
 
 Criei o Preventivo para acompanhar negociações em um fluxo de atendimento que exige consultas rápidas, organização de prazos e visualização de resultados. As telas documentadas abaixo mostram como transformei essa necessidade em uma aplicação web utilizável no dia a dia.
 
-> **Sobre as imagens:** selecionei dez capturas da interface de uma versão anterior às revisões R2–R4 e preparei versões para divulgação, com máscaras opacas adicionais sobre os dados pessoais ainda visíveis. Publiquei os dez PNGs na pasta `imagens/`. Preservei a resolução e os pixels fora dessas máscaras. Os indicadores exibidos representam estados dos registros, não medições de produtividade da operação.
+> **Sobre as imagens:** selecionei dez capturas da interface de uma versão anterior às revisões R2–R4 e utilizei os PNGs já editados que forneci e autorizei para divulgação, sem nenhuma edição adicional. Publiquei os dez PNGs na pasta `imagens/`. Os dez arquivos publicados são cópias idênticas aos PNGs fornecidos, apenas renomeados. Os indicadores exibidos representam estados dos registros, não medições de produtividade da operação.
 
 ## Roteiro da galeria visual
 
@@ -26,7 +26,7 @@ As telas com registros documentam a interface e seus estados visuais, **não con
 
 ## Galeria de capturas publicadas
 
-Selecionei dez capturas de uma versão anterior às revisões R2–R4. Não apresento estas imagens como evidência visual da R4. Protegi os dados pessoais e preservei as demais áreas da interface.
+Selecionei dez capturas de uma versão anterior às revisões R2–R4. Não apresento estas imagens como evidência visual da R4. Utilizei os dez PNGs já editados que selecionei para divulgação, sem novas edições, redimensionamento ou recompressão.
 
 Os indicadores representam os registros exibidos; a confirmação de pagamento é manual e não constitui comprovação financeira.
 

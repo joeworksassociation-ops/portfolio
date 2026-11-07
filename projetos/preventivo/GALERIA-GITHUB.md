@@ -1,6 +1,6 @@
 # Preventivo — galeria da interface
 
-Selecionei dez capturas de uma versão anterior às revisões R2–R4. Não apresento estas imagens como evidência visual da R4. Protegi os dados pessoais e preservei as demais áreas da interface.
+Selecionei dez capturas de uma versão anterior às revisões R2–R4. Não apresento estas imagens como evidência visual da R4. Utilizei os dez PNGs já editados que selecionei para divulgação, sem novas edições, redimensionamento ou recompressão.
 
 Os indicadores representam os registros exibidos; a confirmação de pagamento é manual e não constitui comprovação financeira.
 
