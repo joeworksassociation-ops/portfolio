@@ -36,6 +36,10 @@ Desenvolvo o **Eternal Ascension TD**, um jogo independente de estratégia *towe
 
 **Site:** apresentação do produto, personagens, galeria de mapas e notas de versão, hospedado no Cloudflare Pages.
 
+![Cenário da floresta do Eternal Ascension TD, divulgado no site oficial](https://eternalascension.pages.dev/assets/maps/preview/map-1-preview.webp)
+
+*Prévia de um cenário do jogo disponibilizada no meu site oficial.*
+
 [Estudo de caso do jogo](projetos/eternal-ascension-td/README.md) · [Estudo de caso do site](projetos/eternal-ascension-td/site/README.md)
 
 [Site oficial do Eternal Ascension TD](https://eternalascension.pages.dev/) · [Jogo na Microsoft Store](https://apps.microsoft.com/detail/9P6JJJGWBRQ3?hl=pt-br&gl=BR)
