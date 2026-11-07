@@ -21,7 +21,7 @@ O jogador posiciona e aprimora heróis para enfrentar ondas de inimigos e chefõ
 - Evolução de mapas, inimigos e chefões em builds de desenvolvimento.
 - Preparação de materiais de apresentação e distribuição pela Microsoft Store.
 
-**Versão de distribuição Windows: 1.0.48.0 (MSIX x64).** Utilizo no portfólio a identificação técnica do pacote encaminhado para a Microsoft Store, sem divulgar versões de desenvolvimento ou testes que mantenho separadamente.
+**Referência técnica de pacote Windows: 1.0.48.0 (MSIX x64).** Esse identificador foi registrado na análise de um pacote relacionado à distribuição do jogo; não o apresento como comprovação independente da versão atualmente disponível para todos na Microsoft Store. Mantenho versões de desenvolvimento e testes separadas do material público.
 
 ## Como utilizo IA
 
@@ -39,4 +39,4 @@ As imagens e demonstrações já publicadas no site e na loja servem como aprese
 
 ### Tecnologias e auditoria
 
-A confirmação da arquitetura interna, das dependências e das bibliotecas da **versão MSIX 1.0.48.0** depende da leitura integral do pacote de distribuição. Até essa verificação, mantenho apenas as tecnologias e os recursos efetivamente documentados, sem atribuir ao executável frameworks ou bibliotecas específicos.
+A confirmação da arquitetura interna, das dependências e das bibliotecas do **pacote MSIX 1.0.48.0** depende da leitura integral desse arquivo. Até essa verificação, mantenho apenas tecnologias e recursos efetivamente documentados, sem atribuir ao executável frameworks ou bibliotecas específicos. A numeração atualmente exibida no [site oficial](site/README.md) também requer atualização e conferência com a distribuição real.
