@@ -24,7 +24,7 @@ Com apoio do **GPT/Codex**, construí uma aplicação web com:
 
 Os percentuais e gráficos são calculados automaticamente com base no estado dos negócios cadastrados, mas **a confirmação de pagamento continua manual** após consulta autorizada. A aplicação **não acessa diretamente os pagamentos do sistema de origem** e não utiliza IA para classificar clientes ou prever inadimplência. Utilizei IA **para desenvolver e aprimorar o software**.
 
-[Explore as **dez capturas editadas já publicadas** e os fluxos do Preventivo](GALERIA-GITHUB.md) · [Documentação funcional detalhada](TELAS-E-FLUXOS.md).
+[Veja a galeria (incluindo acesso às capturas atuais da 2.0.1)](GALERIA-GITHUB.md) · [Documentação funcional detalhada](TELAS-E-FLUXOS.md).
 
 ## Evolução recente — R1 a R4 (novembro de 2026)
 
@@ -48,7 +48,7 @@ No ciclo de testes registrado para essa versão, passaram **16/16 verificações
 
 **Já publiquei a aplicação no Cloudflare Pages**, conforme registrei no histórico do projeto, mas esta documentação não equivale a uma auditoria independente da implantação ou à homologação do modo Picture-in-Picture em todos os computadores.
 
-[Leia o estudo de caso da atualização 2.0.1](ATUALIZACAO-2.0.1.md). As dez capturas atualmente exibidas no portfólio são de uma versão anterior e não representam visualmente as mudanças específicas da 2.0.1.
+[Leia o estudo de caso da atualização 2.0.1](ATUALIZACAO-2.0.1.md). As dez imagens preservadas na galeria local representam uma versão anterior; as [quatro capturas atuais publicadas no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528216495064178688/) demonstram a interface 2.0.1.
 
 ## Arquitetura
 
@@ -94,4 +94,4 @@ Continuam necessários, conforme o caso, validação no domínio HTTPS em uso, v
 
 ## Apresentação pública
 
-Neste portfólio, mostro o projeto e minhas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo código-fonte, backups de usuários, credenciais ou pacotes de implantação. **Já publiquei dez capturas editadas**, que selecionei e autorizei para esta apresentação, mantendo os arquivos de imagem separados do código privado. As capturas ilustram uma versão anterior do produto; a evolução até a 2.0.1 está descrita em documentação própria. [Veja a galeria](GALERIA-GITHUB.md).
+Neste portfólio, mostro o projeto e minhas decisões técnicas **sem identificar a organização ou seus sistemas internos**. Não disponibilizo código-fonte, backups de usuários, credenciais ou pacotes de implantação. **Já publiquei dez capturas editadas** no repositório, preservando os arquivos de imagem separados do código privado. Essas imagens são de uma versão anterior. Para a 2.0.1, apresento [quatro capturas atuais na publicação do LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528216495064178688/), incluindo dashboard, cadastro flutuante, gamificação e login. [Veja a galeria e seus contextos](GALERIA-GITHUB.md).
