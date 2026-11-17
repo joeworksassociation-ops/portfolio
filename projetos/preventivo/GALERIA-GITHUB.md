@@ -1,5 +1,13 @@
 # Preventivo — galeria da interface
 
+## Versão 2.0.1 — capturas atuais (16/11/2026)
+
+Em novembro de 2026, registrei novas capturas da versão 2.0.1, apresentando os temas atualizados do dashboard, o cadastro flutuante, as métricas e backups, o feedback visual de conquista e a tela de acesso ao cofre.
+
+Publiquei **quatro capturas atuais** em uma [apresentação do Preventivo no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7528216495064178688/), mostrando o dashboard, o cadastro flutuante, a gamificação e a tela de login. A documentação das funcionalidades está em [Atualização 2.0.1](ATUALIZACAO-2.0.1.md).
+
+## Acervo histórico — versão anterior
+
 Selecionei dez capturas de uma versão anterior às revisões R2–R4. Não apresento estas imagens como evidência visual da R4. Utilizei os dez PNGs já editados que selecionei para divulgação, sem novas edições, redimensionamento ou recompressão.
 
 Os indicadores representam os registros exibidos; a confirmação de pagamento é manual e não constitui comprovação financeira.
