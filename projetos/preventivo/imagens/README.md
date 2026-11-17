@@ -4,7 +4,7 @@ Reuni nesta pasta **dez imagens da interface do Preventivo**. São capturas edit
 
 As capturas representam **uma versão anterior** às revisões R2–R4 e à versão oficial de desenvolvimento **2.0.1**, consolidada em 6 de novembro de 2026. Portanto, não as utilizo para demonstrar visualmente recursos introduzidos em revisões posteriores.
 
-Para consultar as imagens com descrições de cada fluxo, acesse a **[galeria pública do Preventivo](../GALERIA-GITHUB.md)**.
+Para consultar estas imagens históricas e o acesso às capturas atuais da 2.0.1, acesse a **[galeria pública do Preventivo](../GALERIA-GITHUB.md)**.
 
 Para conhecer as funcionalidades e decisões técnicas mais recentes, consulte o **[estudo de caso da 2.0.1](../ATUALIZACAO-2.0.1.md)**.
 
